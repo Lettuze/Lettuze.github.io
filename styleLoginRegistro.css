@@ -1,0 +1,351 @@
+header {
+    background-color: #344257;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+
+
+}
+
+
+.titulo {
+    padding: 0 0 0 20px;
+    /* pad: top right botton left; */
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 30px;
+}
+
+.tituloform {
+    padding: 0 0 0 100px;
+    /* pad: top right botton left; */
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    font-size: 20px;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding: 1rem;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0.6rem;
+}
+
+.go img {
+    width: 30px;
+}
+
+.footer {
+    background-color: white;
+    color: black;
+    padding: 10upx 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    /* Alinea horizontalmente el contenido */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+.Registro {
+    text-decoration: none;
+    width: 169px;
+    height: 30px;
+    background: #637A9D;
+    border-radius: 15px;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+}
+
+.Registro a {
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+}
+
+.Registro a:hover {
+    font-weight: bold;
+}
+
+/* Me toca */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat Alternates;
+    /* background-color: red; */
+    background-image: linear-gradient(rgba(100, 98, 98, 0.5), rgba(0, 0, 0, 0.5)), url('Fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /* Agrega esto para eliminar el margen predeterminado */
+}
+
+
+.formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+}
+
+.formulario h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.formulario .Logo {
+    width: 75px;
+    text-decoration: none;
+    height: auto;
+    transform: translateY(-350px) translateX(-40px);
+    padding-left: 10px;
+}
+
+.formulario .Mascota {
+    width: 120px;
+    height: auto;
+    transform: translateY(-348px) translateX(170px);
+    text-decoration: none;
+}
+
+.formulario .Logo-registro {
+    width: 75px;
+    text-decoration: none;
+    height: auto;
+    transform: translateY(-370px) translateX(-40px);
+    padding-left: 10px;
+}
+
+.formulario .Mascota-registro {
+    width: 120px;
+    height: auto;
+    transform: translateX(170px);
+    text-decoration: none;
+}
+
+.formulario .btnback-registro {
+    width: 120px;
+    height: auto;
+    transform: translateY(-345px) translateX(170px);
+    text-decoration: none;
+}
+
+.formulario form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+
+form .Username {
+    position: relative;
+    border-bottom: 2px solid silver;
+    margin: 30px 0;
+}
+
+form .mail {
+    position: relative;
+    border-bottom: 2px solid silver;
+    margin: 30px 0;
+}
+
+form .Contrasenia {
+    position: relative;
+    border-bottom: 2px solid silver;
+    margin: 30px 0;
+}
+
+
+
+.Username input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.Contrasenia input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.mail input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+
+.Username label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: gray;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.Contrasenia label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: gray;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.mail label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: gray;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.Username span::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: gray;
+    transition: .5s;
+}
+
+.Username input:focus~label,
+.Username input:focus~label {
+    top: -5px;
+    color: black;
+}
+
+.Contrasenia input:focus~label,
+.Contrasenia input:focus~label {
+    top: -5px;
+    color: black;
+}
+
+.mail input:focus~label,
+.mail input:focus~label {
+    top: -5px;
+    color: black;
+}
+
+.Username input:focus~span::before,
+.Username input:focus~span::before {
+    width: 100%;
+}
+
+.Contrasenia input:focus~span::before,
+.Contrasenia input:focus~span::before {
+    width: 100%;
+}
+
+.mail input:focus~span::before,
+.mail input:focus~span::before {
+    width: 100%;
+}
+
+.recordar {
+    margin: -5px 0 20px 5px;
+    color: blue;
+    cursor: pointer
+}
+
+.recordar a {
+    text-decoration: none;
+    color: blue;
+}
+
+.recordar a:hover {
+    text-decoration: underline;
+}
+
+.recordar:hover {
+    text-decoration: underline;
+}
+
+.Ingresar {
+    text-align: center;
+    transform: translateY(50%);
+}
+
+input[type="submit"] {
+    width: 75%;
+    height: 50px;
+    border: 1px solid;
+    background: #40C8E2;
+    border-radius: 25px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.creditos p {
+    padding: 0 0 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0.6rem;
+}
+
+@media only screen and (max-width: 767px) {
+    /* Estilos específicos para pantallas con un ancho máximo de 767px */
+}
+
+/* PAGINA PRINCIPAL */

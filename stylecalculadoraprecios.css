@@ -1,0 +1,324 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    background-color: #344257;
+    display: flex;
+    height: 80px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+    padding: 0 0 0 20px;
+    /* pad: top right botton left; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.logoimg {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.logoimg img {
+    height: 75px;
+    margin-right: 10px;
+}
+
+.fotoperfil {
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.fotoperfil:hover {
+    cursor: pointer;
+}
+
+.fotoperfil h6 {
+
+    align-items: end;
+    margin: 0 0 10px 0;
+    font-size: 14px;
+}
+
+.fotoperfil img {
+    height: 60px;
+    margin-top: 5%;
+    margin: 0 0px 0 0;
+    padding: 0 0 0 5px;
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    position: fixed;
+    top: 2%;
+    right: 0%;
+
+}
+
+nav ul li {
+    text-align: center;
+    display: inline-block;
+    padding: 20px 20px 20px 50px;
+    margin: 0 0 10px 20px;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    display: block;
+    font-size: 18px;
+    font-family: 'intersperspective', sans-serif;
+    transition: transform 0.3s;
+}
+
+
+
+.navitem a:hover {
+    border-bottom: 2px solid silver;
+    transform: scale(1.2);
+}
+
+
+body {
+
+    font-family: Montserrat Alternates;
+    /* background-color: red; */
+    background-image: linear-gradient(rgba(100, 98, 98, 0.5), rgba(0, 0, 0, 0.5)), url('FondoPagPrincipal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /* Agrega esto para eliminar el margen predeterminado */
+}
+
+
+
+.calculadoraprecios {
+    position: fixed;
+    top: 22%;
+    bottom: 20%;
+    left: -150px;
+
+}
+
+.calculadoraprecios img {
+    width: 300px;
+    margin-left: 200px;
+    border-radius: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    margin: 0 40px 0 40px;
+    color: black;
+    width: 700px;
+    height: 400px;
+}
+
+.formulario h1 {
+    text-align: left;
+    padding: 10px 0 20px 10px;
+
+    border-bottom: 1px solid silver;
+}
+
+
+.ingresomensual input {
+    transform: translateY(20px) translateX(-10px);
+    background-color: #637A9D;
+    outline: none;
+    border-radius: 20px;
+    border: solid 1px;
+    height: 25px;
+    width: 300px;
+}
+
+.ingresomensual label {
+    position: absolute;
+    transform: translateX(-300px);
+}
+
+.intencionahorro label {
+    position: absolute;
+    transform: translateX(40px) translateY(-24px);
+}
+
+.intencionahorro input {
+    transform: translateY(-5px) translateX(335px);
+    background-color: #637A9D;
+    outline: none;
+    border-radius: 20px;
+    border: solid 1px;
+    height: 25px;
+    width: 300px;
+}
+
+.gastomensualD label {
+    position: absolute;
+    transform: translateX(-300px) translateY(15px);
+}
+
+.gastomensualD input {
+    transform: translateY(40px) translateX(-10px);
+    background-color: #637A9D;
+    outline: none;
+    border-radius: 20px;
+    border: solid 1px;
+    height: 25px;
+    width: 300px;
+}
+
+.gastomensualA label {
+    position: absolute;
+    transform: translateX(16%) translateY(-10px);
+
+
+}
+
+.gastomensualA input {
+    transform: translateY(60%) translateX(338px);
+    background-color: #637A9D;
+    outline: none;
+    border-radius: 20px;
+    border: solid 1px;
+    height: 25px;
+    width: 300px;
+}
+
+.correo label {
+    position: absolute;
+    transform: translateX(-50px) translateY(50px);
+}
+
+.correo input {
+    transform: translateY(80px) translateX(175px);
+    background-color: #637A9D;
+    outline: none;
+    border-radius: 20px;
+    border: solid 1px;
+    height: 25px;
+    width: 300px;
+}
+
+.btn {
+    transform: translateX(500px) translateY(115px);
+}
+
+.btn input {
+    width: 20%;
+    height: 50px;
+    border: 1px solid;
+    background: #40C8E2;
+    border-radius: 25px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.formulario form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+
+form .Username {
+    position: relative;
+    border-bottom: 2px solid silver;
+    margin: 30px 0;
+}
+
+form .mail {
+    position: relative;
+    border-bottom: 2px solid silver;
+    margin: 30px 0;
+}
+
+form .Contrasenia {
+    position: relative;
+    border-bottom: 2px solid silver;
+    margin: 30px 0;
+}
+
+.creditos p {
+    padding: 0 0 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+
+.go img {
+    width: 30px;
+}
+
+.footer {
+    background-color: white;
+    color: black;
+    padding: 10upx 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    /* Alinea horizontalmente el contenido */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0.6rem;
+}
+
+
+@media (max-width:700px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 10px 0px;
+    }
+}
